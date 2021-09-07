@@ -7,12 +7,12 @@ public class Swap {
      int x=100,y=200;
 
      System.out.println("Before Swap");
-     System.out.println("x ="+ x);
-     System.out.println("y ="+ y);
+     System.out.println("a ="+ a);
+     System.out.println("b ="+ b);
 
-     int temp=x;
+     int add=x;
      x=y;
-     y=temp;
+     y=add;
 
      System.out.println("After swap");
      System.out.println("x ="+ x);
